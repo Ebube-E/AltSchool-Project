@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+nav {
+  position: sticky;
+  top: 0;
+  padding-block: 1rem;
+  padding-inline: 1rem;
+  background: #e5890a;
+}
+
+.navcontainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navcontainer a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  margin-left: 1.3rem;
+  color: white;
+  padding: 0.8rem;
+}
+
+.navcontainer a:hover {
+  background: white;
+  border-radius: 0.5rem;
+  color: black;
+  transition: 1sec ease-in;
+}
+body {
+  background-color: #fcffe7;
+}
+h1 {
+  color: #e5890a;
+}
+
+h2 {
+  color: #e5890a;
+}
+
+h3 {
+  color: #e5890a;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  margin: 8px 0;
+  padding: 12px 20px;
+  display: inline-block;
+  border: 2px solid green;
+  box-sizing: border-box;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+.cbutton {
+  width: auto;
+  padding: 10px 18px;
+  margin: 10px 5px;
+}
+.lcontainer {
+  padding: 25px;
+  background-color: lightblue;
+}
+
+.rcontainer {
+  padding: 16px;
+  background-color: white;
+}
+
+.registerbtn {
+  background-color: #04aa6d;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity: 1;
+}
+
+a {
+  color: dodgerblue;
+}
+
+.login {
+  background-color: #f1f1f1;
+  text-align: center;

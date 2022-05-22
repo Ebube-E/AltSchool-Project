@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="/style.css">
+  </head>
+  <body>
+    <h1>My Contact Details</h1>
+    <p>
+      Phone number 07557325268
+    </p>
+    <p>
+      email: oluebubeihemadu@gmail.com
+    </p>
+    <br>
+    <hr />
+    <form action="mailto:oluebubeihemadu@gmail.com" method="post" enctype="text/plain">
+      <label>Your Name:</label>
+      <input type="text" name="yourName" value=""><br />
+      <label>Your Email:</label>
+      <input type="text" name="yourEmail" value=""><br />
+      <label for="priority">Priority:</label><br>
+<select name="priority" id="priority">
+  <option value="select">Select</option>
+  <option value="high">High</option>
+  <option value="meduim">Meduim</option>
+  <option value="low" selected>Low</option>
+  <option value="none">Not Applicable</option>
+</select><br>
+      <label for="message">Your Message:</label><br>
+
+<textarea id="message" name="message" rows="4" cols="50">
+Type your message here...
+</textarea><br>
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>
